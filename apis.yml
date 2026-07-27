@@ -1,24 +1,59 @@
 aid: futureplay
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/futureplay.png
 name: Futureplay
-description: 'Futureplay is a company surfaced as a portfolio company of creandum and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Futureplay is a Helsinki, Finland-based mobile game studio founded in 2015 that develops
+  free-to-play games for a global audience, having released six titles for more than 120 million players
+  including Merge Gardens, Battlelands Royale, and Idle Farming Empire. Backed by Creandum and now part of
+  Plarium, the studio operates in the consumer gaming sector. Futureplay publishes no public developer API,
+  SDK, MCP server, or developer portal; player-facing support runs through a Zendesk help center, and legal
+  terms are hosted on the Plarium company site.'
 url: https://raw.githubusercontent.com/api-evangelist/futureplay/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - creandum
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: consumer-game-studio-no-api-surface
+x-enriched: '2026-07-19'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- Game Studio
+- Entertainment
+- Finland
 apis: []
+common:
+- type: Website
+  url: https://www.futureplaygames.com
+- type: Support
+  url: https://futureplaygames.zendesk.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://company.plarium.com/en/terms/privacy-and-cookie-policy/
+- type: TermsOfService
+  url: https://company.plarium.com/en/terms/terms-of-use/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
